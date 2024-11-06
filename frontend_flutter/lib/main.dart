@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:sanity_client/client.dart';
+import 'package:vyuh_core/plugin/plugin_descriptor.dart';
 import 'package:vyuh_core/vyuh_core.dart' as vc;
 import 'package:vyuh_extension_content/vyuh_extension_content.dart';
 import 'feature.dart' as blog;
