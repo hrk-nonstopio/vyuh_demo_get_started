@@ -26,11 +26,11 @@ void main() async {
             SanityConfig(
               dataset: 'your_dataset',
               projectId: 'your_project_id',
-              token:'your_token',
+              token: 'your_token',
             ),
           ),
         ),
-      )
+      ),
     ),
   );
 }
