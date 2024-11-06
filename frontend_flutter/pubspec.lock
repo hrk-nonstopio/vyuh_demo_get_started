@@ -529,7 +529,7 @@ packages:
     source: hosted
     version: "0.28.0"
   sanity_client:
-    dependency: transitive
+    dependency: "direct main"
     description:
       name: sanity_client
       sha256: c2da5c63d53de083315371293e5a54ab526c3da6bf483d85e4176f17a9a41b0e
@@ -814,7 +814,7 @@ packages:
     source: hosted
     version: "1.22.3"
   vyuh_extension_content:
-    dependency: transitive
+    dependency: "direct main"
     description:
       name: vyuh_extension_content
       sha256: abfaa7902f6423d52ee63f95c6f482ed3322cb16ea76c3c318ec6545de3cae25
