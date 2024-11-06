@@ -40,6 +40,8 @@ dependencies:
   go_router: ^14.4.1
   mobx: ^2.4.0
   flutter_mobx: ^2.2.1+1
+  vyuh_feature_system: ^1.27.0
+  vyuh_plugin_content_provider_sanity: ^1.7.0
 
 dev_dependencies:
   flutter_test:
