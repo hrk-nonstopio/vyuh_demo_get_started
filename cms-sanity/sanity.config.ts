@@ -1,18 +1,23 @@
-import {defineConfig} from 'sanity'
-import {structureTool} from 'sanity/structure'
-import {visionTool} from '@sanity/vision'
-import {schemaTypes} from './schemaTypes'
+import { defineConfig } from 'sanity'
+import { vyuh } from '@vyuh/sanity-plugin-structure'
+import { system } from '@vyuh/sanity-schema-system'
 
-export default defineConfig({
-  name: 'default',
-  title: 'Vyuh Demo Get Started CMS',
+export default defineConfig([
+  {
+    name: 'default',
+    title: 'My Blog | Vyuh Demo Get Started CMS',
+    basePath: '/',
 
-  projectId: 'w5o9x6m2',
-  dataset: 'production',
+    projectId: 'w5o9x6m2',
+    dataset: 'production',
 
-  plugins: [structureTool(), visionTool()],
-
-  schema: {
-    types: schemaTypes,
+    plugins: [
+      vyuh({
+        features: [
+          system,
+          // ... other features ... //
+        ],
+      }),
+    ],
   },
-})
+])
